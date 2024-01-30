@@ -1,9 +1,8 @@
-@media (min-width:320px) {
-  html, body {
+html, body {
     max-width: 100%;
     overflow-x: hidden;
   }
-}
+
 
 @media (min-width:320px) {
   .menu1 img .search-wrapper {
