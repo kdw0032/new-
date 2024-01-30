@@ -1,87 +1,115 @@
-@media (max-width:700px) {
-  .menu1 {
+@media (min-width:320px) {
+  body {
+    margin: 0;
+    padding:0;
+    overflow-x: hidden;
+  }
+}
+
+@media (min-width:320px) {
+  .menu1 img .search-wrapper {
       display: none;
   }
 }
 
-@media screen and (max-width:700px) {
+@media (min-width:320px) {
+  .menu2{
+      display: none;
+  }
+}
+
+@media (min-width:320px) {
+  .menu3{
+      display: none;
+  }
+}
+
+@media (min-width:320px) {
+  .menu4 .menu5 .menu6 .menu7{
+      display: none;
+  }
+}
+
+
+
+@media screen and (min-width:320px) {
   .m_menu1 {
       position: fixed;
       top: 0px;
       left: 0px;
       background: #f6f5ef;
-      width: 100%;
+      width: 396px;
       height: 64px;
       z-index: 4;
   }
 }
 
-@media screen and (max-width:700px) {
+@media screen and (min-width:320px) {
   .m_menu1 img {
       position: fixed;
       top: 5px;
-      left: 10px;
+      left: 50px;
       width: 50px;
       height: 50px;
       z-index: 3;
   }
 }
 
-@media (max-width:700px) {
+ 
   .springm :first-child {
       position: absolute;
       top: 10px;
-      width: 100%;
+      width: 640px;
       height: 1077px;
       z-index: 3;
   }
-}
 
-@media (max-width:700px) {
+
+@media (min-width:320px) {
   .springm :last-child {
       position: absolute;
       top: 50px;
-      left: 50px;
+      left: 40px;
       width: 253.3px;
       height: 100.67px;
       z-index: 3;
   }
 }
 
-@media (max-width:700px) {
+@media (min-width:320px) {
   .springm2 :first-child {
       position: absolute;
       top: 270px;
-      left: 80px;
+      left: 10px;
       width: 327.59px;
       height: 341.7px;
       z-index: 3;
   }
 }
 
-@media (max-width:700px) {
+@media (min-width:320px) {
   .springm2 :nth-child(2) {
       position: absolute;
       top: 330px;
-      left: 155px;
+      left: 75px;
       width: 327.59px;
       height: 450px;
       z-index: 3;
   }
 }
 
-@media (max-width:700px) {
+@media (min-width:320px) {
   .springm2 :last-child {
       position: absolute;
       top: 700px;
-      left: 100px;
+      left: 50px;
       width: 327.59px;
       height: 290px;
       z-index: 3;
   }
 }
 
-@media (max-width:700px) {
+@media (min-width:320px) {
   .btn p {
       position: absolute;
       top: 1050px;
@@ -94,35 +122,45 @@
   }
 }
 
-@media (max-width:700px) {
+@media (min-width:320px) {
   .card {
-    display: none;
+    position: fixed;
+    left: 240px;
+    width: 120px;
+    height: 85px;
+    display: block;
   }
 }
 
-@media (max-width:700px) {
+@media (min-width:320px) {
   .m_card img {
     position: fixed;
-    top: 90px;
-    left: 350px;
-    width: 125px;
+    top: 80px;
+    left: 255px;
+    width: 120px;
     height: 85px;
     z-index: 4;  
   }
 }
 
-@media (max-width:700px) {
+@media (min-width:320px) {
   .notice {
     position: absolute;
     top: 1140px;
-    width: 100%;
+    width: 390px;
     height: 70px;
     background: black;
     z-index: 3;
   }
 }
 
-@media (max-width:700px) {
+@media (min-width:320px) {
+  .notice img {
+    display: none;
+  }
+}
+
+@media (min-width:320px) {
   .notice2 {
     position: absolute;
     top: 1200px;
@@ -137,7 +175,7 @@
 .m_rollingbanner{
     position: absolute;
     top: 1150px;
-    left: 100px;
+    left: 50px;
     width: 300px;
     height: 32px;
     font-size: 15px;
@@ -205,7 +243,7 @@
     top: 36px;
 }
 
-@media (max-width:700px) {
+@media (min-width:320px) {
     .m_notice2 {
       position: absolute;
       top: 1200px;
@@ -230,7 +268,7 @@
     }
 }
 
-@media (max-width:700px) {
+@media (min-width:320px) {
   .been {
     display: none;
   }
@@ -264,7 +302,7 @@
   }
 }
 
-@media (max-width:700px) {
+@media (min-width:320px) {
   .m_reward {
     position: absolute;
     top: 1270px;
