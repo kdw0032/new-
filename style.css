@@ -47,8 +47,9 @@ body {
     font-family: sans-serif;
 }
 
-.menu1{
+.container .header .menu1{
     position: fixed;
+    left: 0px;
     width: 1920px;
     height: 150px;
     background: #f6f5ef;

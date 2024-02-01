@@ -1,32 +1,42 @@
-@media (max-width:390px) {
   html ,body {
     max-width: 100%;
     overflow-x: hidden;
-   }
+  }
+
+@media screen and (max-width:390px) {
+  .container {
+    height : 100vmax;
+   } 
 }
 
-@media (max-width:390px) {
-  .menu1 img .search-wrapper {
-      display: none;
-  }
+@media screen and (max-width:390px) {
+  .menu1{
+    display: none;
+   } 
 }
 
-@media (max-width:390px) {
-  .menu2{
-      display: none;
-  }
+@media screen and (max-width:390px) {
+  .store {
+    display: none;
+   } 
 }
 
-@media (max-width:390px) {
-  .menu3{
-      display: none;
-  }
+@media screen and (max-width:390px) {
+  .store2{
+    display: none;
+   } 
 }
 
-@media (max-width:390px) {
-  .menu4 .menu5 .menu6 .menu7{
-      display: none;
-  }
+@media screen and (max-width:390px) {
+  .footer{
+    display: none;
+   } 
+}
+
+@media screen and (max-width:390px) {
+  .virture{
+    display: none;
+   } 
 }
 
 @media screen and (max-width:390px) {
@@ -56,7 +66,7 @@
   .springm :first-child {
       position: absolute;
       top: 10px;
-      width: 640px;
+      width: 100%;
       height: 1077px;
       z-index: 3;
   }
