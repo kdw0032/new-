@@ -1,37 +1,35 @@
-body {
-  overflow-y: scroll;
-  overflow-x: hidden;
-  margin: 0 auto;
- }
+@media (max-width:390px) {
+  html ,body {
+    max-width: 100%;
+    overflow-x: hidden;
+   }
+}
 
-
-@media (min-width:320px) {
+@media (max-width:390px) {
   .menu1 img .search-wrapper {
       display: none;
   }
 }
 
-@media (min-width:320px) {
+@media (max-width:390px) {
   .menu2{
       display: none;
   }
 }
 
-@media (min-width:320px) {
+@media (max-width:390px) {
   .menu3{
       display: none;
   }
 }
 
-@media (min-width:320px) {
+@media (max-width:390px) {
   .menu4 .menu5 .menu6 .menu7{
       display: none;
   }
 }
 
-
-
-@media screen and (min-width:320px) {
+@media screen and (max-width:390px) {
   .m_menu1 {
       position: fixed;
       top: 0px;
@@ -43,18 +41,18 @@ body {
   }
 }
 
-@media screen and (min-width:320px) {
+@media screen and (max-width:390px) {
   .m_menu1 img {
       position: fixed;
       top: 5px;
-      left: 50px;
+      left: 20px;
       width: 50px;
       height: 50px;
       z-index: 3;
   }
 }
 
- 
+@media screen and (max-width:390px) {
   .springm :first-child {
       position: absolute;
       top: 10px;
@@ -62,9 +60,9 @@ body {
       height: 1077px;
       z-index: 3;
   }
+}
 
-
-@media (min-width:320px) {
+@media (max-width:390px) {
   .springm :last-child {
       position: absolute;
       top: 50px;
@@ -75,7 +73,7 @@ body {
   }
 }
 
-@media (min-width:320px) {
+@media (max-width:390px) {
   .springm2 :first-child {
       position: absolute;
       top: 270px;
@@ -86,7 +84,7 @@ body {
   }
 }
 
-@media (min-width:320px) {
+@media (max-width:390px) {
   .springm2 :nth-child(2) {
       position: absolute;
       top: 330px;
@@ -97,7 +95,7 @@ body {
   }
 }
 
-@media (min-width:320px) {
+@media (max-width:390px) {
   .springm2 :last-child {
       position: absolute;
       top: 700px;
@@ -108,7 +106,7 @@ body {
   }
 }
 
-@media (min-width:320px) {
+@media (max-width:390px) {
   .btn p {
       position: absolute;
       top: 1050px;
@@ -121,7 +119,7 @@ body {
   }
 }
 
-@media (min-width:320px) {
+@media (max-width:390px) {
   .card {
     position: fixed;
     left: 240px;
@@ -131,7 +129,7 @@ body {
   }
 }
 
-@media (min-width:320px) {
+@media (max-width:390px) {
   .m_card img {
     position: fixed;
     top: 80px;
@@ -142,7 +140,7 @@ body {
   }
 }
 
-@media (min-width:320px) {
+@media (max-width:390px) {
   .notice {
     position: absolute;
     top: 1140px;
@@ -153,13 +151,13 @@ body {
   }
 }
 
-@media (min-width:320px) {
+@media (max-width:390px) {
   .notice img {
     display: none;
   }
 }
 
-@media (min-width:320px) {
+@media (max-width:390px) {
   .notice2 {
     position: absolute;
     top: 1200px;
@@ -242,7 +240,7 @@ body {
     top: 36px;
 }
 
-@media (min-width:320px) {
+@media (max-width:390px) {
     .m_notice2 {
       position: absolute;
       top: 1200px;
@@ -267,7 +265,7 @@ body {
     }
 }
 
-@media (min-width:320px) {
+@media (max-width:390px) {
   .been {
     display: none;
   }
@@ -301,7 +299,7 @@ body {
   }
 }
 
-@media (min-width:320px) {
+@media (max-width:390px) {
   .m_reward {
     position: absolute;
     top: 1270px;
